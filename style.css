@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+
+body {
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-shadow: 2px 2px 2px black;
+    background-color: black;
+}
+
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    line-height: 0.4em;
+    font-family: 'Inconsolata'
+}
+
+.beforebg {
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    z-index: -1000;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -100000;
+}
+
+.seller {
+    font-family: monospace;
+    color: whitesmoke;
+    cursor: text;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textiboi {
+    text-align: center;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.textiboi:hover {
+    color: grey;
+}
+
+.header {
+    text-align: center;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.hoverr:hover a {
+    color: grey;
+}
+
+.header:hover {
+    text-align: center;
+    color: grey;
+    font-family: monospace;
+}
+
+.container:hover .seller {
+    color: white;
+}
+
+.container:hover a {
+    color: grey;
+}
+
+.a {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+.header:hover a {
+    text-align: center;
+    color: grey;
+    font-family: monospace;
+}
+
+.icon {
+    color: whitesmoke;
+}
+
+.icon i {
+    font-size: 80px;
+}
+
+.container {
+    text-align: center;
+    margin: 5px 20px;
+    float: left;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.container:hover .icon {
+    color: var(--icon-color);
+    font-size: 30px;
+}
+
+.container:hover .seller {
+    color: grey;
+}
+
+.container:hover a {
+    color: grey;
+}
